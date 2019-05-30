@@ -1,55 +1,30 @@
 /* Set up styles for image backgrounds based on category or subject covered in the course, alongside the final.html background */
 #python {
-	background-image:url('images/python_image.jpg');
+	background-image:url('python_image.jpg');
 }
 
 #html {
-	background-image:url('images/html_image.jpg');
+	background-image:url('html_image.jpg');
 }
 
 #css {
-	background-image:url('images/css_image.jpg');
+	background-image:url('css_image.jpg');
 }
 
 #javascript {
-	background-image:url('images/javascript_image.jpg');
+	background-image:url('javascript_image.jpg');
 }
 
 #hardware {
-	background-image:url('images/hardware_image.jpg');
+	background-image:url('hardware_image.jpg');
 }
 
 #app_design {
-	background-image:url('images/app_design_image.jpg');
+	background-image:url('app_design_image.jpg');
 }
 
 #final {
-	background-image:url('images/fireworks.jpg');
-}
-
-/* Set up table styles */
-table {
-	font-family: arial;
-	border-collapse: collapse;
-	width: 100%;
-	opacity: 0.9;
-}
-
-td, th {
-	border: 2px solid darkslategray;
-	text-align: left;
-	padding: 4px;
-	font-size: 105%;
-}
-
-tr:nth-child(odd) {
-	background-color: lightsteelblue;
-	color: darkgreen;
-}
-
-tr:nth-child(even) {
-	background-color: lightblue;
-	color: darkred;
+	background-image:url('fireworks.jpg');
 }
 
 /* Set up styles for text-related elements */
