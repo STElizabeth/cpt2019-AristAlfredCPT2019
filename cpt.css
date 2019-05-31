@@ -1,22 +1,22 @@
 /* Set up styles for image backgrounds based on category or subject covered in the course, alongside the final.html background */
 #python {
-	background-image:url('python_image.jpg');
+	background-image:url('images/python_image.jpg');
 }
 
 #html {
-	background-image:url('html_image.jpg');
+	background-image:url('images/html_image.jpg');
 }
 
 #css {
-	background-image:url('css_image.jpg');
+	background-image:url('images/css_image.jpg');
 }
 
 #javascript {
-	background-image:url('javascript_image.jpg');
+	background-image:url('images/javascript_image.jpg');
 }
 
 #hardware {
-	background-image:url('hardware_image.jpg');
+	background-image:url('images/hardware_image.jpg');
 }
 
 #app_design {
@@ -24,7 +24,7 @@
 }
 
 #final {
-	background-image:url('fireworks.jpg');
+	background-image:url('images/fireworks.jpg');
 }
 
 /* Set up styles for text-related elements */
