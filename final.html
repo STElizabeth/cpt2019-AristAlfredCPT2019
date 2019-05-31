@@ -8,19 +8,12 @@
 
 	<body id="final">
         	<h2>Congratulations!</h2>
-        	<img src="thumbs_up.gif" alt="Thumbs up!" class="congrats_image">
-
+        	<img src="images/thumbs_up.gif" alt="Thumbs up!" class="congrats_image">
+		
 		<p>Nice work! You reached a score of 80% or more on these questions!</p>
 		<p>As a reward, you can go to the second level which is an online trivia quiz.</p>
 
-		<!-- play multiple audio files in case a browser cannot play either an .mp3 or an .wav file -->
-		<audio autoplay>
-			<source src="crowd_cheer.mp3" type="audio/mpeg">
-		</audio>
-		<audio autoplay>
-			<source src="crowd_cheer_alt.wav" type="audio/wav">
-		</audio>
-		<embed name="Crowd Cheer" src="crowd_cheer.wav" loop="false" hidden="true" autostart="true">
+		<!-- play a cheering crowd sound as a sound of congratulations for the player -->
 		<iframe src="crowd_cheer.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe>
 	</body>
 </html>
