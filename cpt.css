@@ -34,7 +34,6 @@ h3, p, li {
 
 h3 {
 	color: darkgreen;
-	font-size: 14px;
 }
 
 p, li {
@@ -46,4 +45,9 @@ p, li {
 .congrats_image {
 	width: 100px;
 	height: 100px;
+}
+
+/* Set up style for audio iframes */
+.iframeAudio {
+	display: none;
 }
