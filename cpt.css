@@ -42,8 +42,8 @@ p, li {
 
 /* Set up styles for images */
 .congrats_image {
-	width: 100px;
-	height: 100px;
+	width: 65px;
+	height: 65px;
 }
 
 /* Set up style for iframes, which are used for audio */
