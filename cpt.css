@@ -34,11 +34,12 @@ h3, p, li {
 
 h3 {
 	color: darkgreen;
+	font-size: 14px;
 }
 
 p, li {
 	color: darkred;
-	font-size: 11px;
+	font-size: 13px;
 }
 
 /* Set up styles for images */
