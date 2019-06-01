@@ -46,7 +46,7 @@ p, li {
 	height: 100px;
 }
 
-/* Set up style for audio iframes */
-#iframeAudio {
+/* Set up style for iframes, which are used for audio */
+iframe {
 	display: none;
 }
