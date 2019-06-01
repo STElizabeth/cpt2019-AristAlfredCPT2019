@@ -12,7 +12,9 @@
 		<img src="images/thumbs_up.gif" alt="Thumbs up!" class="congrats_image">
 
 		<!-- create a button and an audio tag for a cheering sound to be played to mobile users -->
-		<button type="button" onclick="mobileCheerPlay()"> Mobile users: click here to hear a cheering sound!</button>
+		<form>
+			<input type="button" value="Mobile users: click here to hear a cheering sound!" onclick="mobileCheerPlay()">
+		</form>
 		<audio id="crowd_cheering" src="crowd_cheer.mp3"></audio>
 
 		<p>Nice work! You reached a score of 80% or more!</p>
