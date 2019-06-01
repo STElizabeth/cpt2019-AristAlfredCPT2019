@@ -38,7 +38,6 @@ h3 {
 
 p, li {
 	color: darkred;
-	font-size: 13px;
 }
 
 /* Set up styles for images */
@@ -48,6 +47,6 @@ p, li {
 }
 
 /* Set up style for audio iframes */
-.iframeAudio {
+#iframeAudio {
 	display: none;
 }
