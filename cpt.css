@@ -46,6 +46,23 @@ p, li {
 	height: 65px;
 }
 
+/* Set up styles for links */
+a:link {
+	color: midnightblue;
+}
+
+a:visited {
+	color: saddlebrown;
+}
+
+a:hover, a:focus {
+	color: rebeccapurple;
+}
+
+a:active {
+	color: red;
+}
+
 /* Set up style for iframes, which are used for audio */
 iframe {
 	display: none;
