@@ -4,23 +4,16 @@
 	<head>
 		<title>Congratulations!</title>
 		<link rel="stylesheet" type="text/css" href="cpt.css">
-		<script src="mobile_audio_btn.js"></script>
 	</head>
 
 	<body id="final">
 		<h3>Congratulations!</h3>
 		<img src="images/thumbs_up.gif" alt="Thumbs up!" class="congrats_image"><br>
 
-		<!-- create a button and an audio tag for a cheering sound to be played to mobile users -->
-		<form>
-			<input type="button" value="Mobile users: tap here to hear a cheering sound!" onclick="mobileCheerPlay()">
-		</form>
-		<audio id="crowd_cheering" src="crowd_cheer.mp3"></audio>
-
 		<p>Nice work! You reached a score of 80% or more!</p>
 		<p>As a reward, you can go to the second level which is an online trivia quiz. <a href="trivia.html">Click here!</a></p>
 
-		<!-- for PC users, automatically play a cheering crowd sound as a sound of congratulations -->
+		<!-- automatically play a cheering crowd sound as a sound of congratulations -->
 		<iframe src="crowd_cheer.mp3" allow="autoplay"></iframe>
 	</body>
 </html>
