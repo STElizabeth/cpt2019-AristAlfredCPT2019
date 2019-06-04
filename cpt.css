@@ -44,6 +44,12 @@ p, li {
 	color: darkred;
 }
 
+/* Set up styles for trivia quiz elements */
+form, input, TEXTAREA {
+	font-family: comic sans ms;
+	color: darkred;
+}
+
 /* Set up styles for images */
 .congrats_image {
 	width: 65px;
