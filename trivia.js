@@ -143,7 +143,7 @@ function submitAnswer(){
 	}
 	else if (ans===12){ 
 		y = document.getElementById("qans").value
-		if(yy==="B"){
+		if(yy==="A"){
 			document.getElementById("question").value="You are right"
 			score++
 		}
@@ -264,7 +264,7 @@ function main(){
 	}
 	else if (i===12){ 
 		document.view.qnum.value=i;	
-		document.view.question.value ="Who is the protagonist of Call Of Duty? \na)Jason Hudson \nb)Alex Mason \nc)Friedrich Steiner \nd)Viktor Reznov";
+		document.view.question.value ="Who is the protagonist of Call Of Duty? \na)Alex Mason \nb)Jason Hudson \nc)Friedrich Steiner \nd)Viktor Reznov";
 		document.view.qans.value=""
 	}
 	else if (i===13){ 
