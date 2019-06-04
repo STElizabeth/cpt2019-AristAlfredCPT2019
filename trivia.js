@@ -209,84 +209,84 @@ function submitAnswer(){
 function main(){ 
 	if (i===1){ 
 		document.view.qnum.value=i;
-		document.view.question.value ="In Mario Kart, which item can seek enemies? \na)Mushroom \nb)Red Shell \nc)Banana \nd)Green Shell";
+		document.view.question.value ="In Mario Kart, which item can seek enemies? \na) Mushroom \nb) Red Shell \nc) Banana \nd) Green Shell";
 		document.view.qans.value=""
 	}
 	else if (i===2){ 
 		document.view.qnum.value=i;	
-		document.view.question.value ="In Dungeons and Dragons, which die is used to roll for attacking order? \na)20-sided \nb)10-sided \nc)4-sided \nd)8-sided";
+		document.view.question.value ="In Dungeons and Dragons, which die is used to roll for attacking order? \na) 20-sided \nb) 10-sided \nc) 4-sided \nd) 8-sided";
 		document.view.qans.value=""
 	}
 	else if (i===3){ 
 		document.view.qnum.value=i;	
-		document.view.question.value ="What are the two colours of chips in Connect 4? \na)Blue and red \nb)Yellow and black \nc)Yellow and red \nd)Black and blue";
+		document.view.question.value ="What are the two colours of chips in Connect 4? \na) Blue and red \nb) Yellow and black \nc) Yellow and red \nd) Black and blue";
 		document.view.qans.value=""
 	}
 	else if (i===4){ 
 		document.view.qnum.value=i;	
-		document.view.question.value ="Who is the protagonist of the game Dead Rising? \na)Chuck Green \nb)Carlito Keyes \nc)Nick Ramos \nd)Frank West";
+		document.view.question.value ="Who is the protagonist of the game Dead Rising? \na) Chuck Green \nb) Carlito Keyes \nc) Nick Ramos \nd) Frank West";
 		document.view.qans.value=""
 	}
 	else if (i===5){ 
 		document.view.qnum.value=i;	
-		document.view.question.value ="Who is the final boss of Super Mario Galaxy? \na)Bowser Jr. \nb)King Boo \nc)Rosalina \nd)Bowser";
+		document.view.question.value ="Who is the final boss of Super Mario Galaxy? \na) Bowser Jr. \nb) King Boo \nc) Rosalina \nd) Bowser";
 		document.view.qans.value=""
 	}
 	else if (i===6){ 
 		document.view.qnum.value=i;	
-		document.view.question.value ="In chess, which piece can jump over other pieces? \na)The King \nb)The Knight \nc)The Queen \nd)The Bishop";
+		document.view.question.value ="In chess, which piece can jump over other pieces? \na) The King \nb) The Knight \nc) The Queen \nd) The Bishop";
 		document.view.qans.value=""
 	}
 	else if (i===7){ 
 		document.view.qnum.value=i;	
-		document.view.question.value ="Who is the protagonist of MegaMan: Star Force? \na)Sonia Strumm \nb)Geo Stelar \nc)Zero \nd)Luna Hertz";
+		document.view.question.value ="Who is the protagonist of MegaMan: Star Force? \na) Sonia Strumm \nb) Geo Stelar \nc) Zero \nd) Luna Hertz";
 		document.view.qans.value=""
 	}
 	else if (i===8){ 
 		document.view.qnum.value=i;	
-		document.view.question.value ="Which of the following is a legendary Pokemon? \na)Charizard \nb)Blastoise \nc)Spiritomb \nd)Shaymin";
+		document.view.question.value ="Which of the following is a legendary Pokemon? \na) Charizard \nb) Blastoise \nc) Spiritomb \nd) Shaymin";
 		document.view.qans.value=""
 	}
 	else if (i===9){ 
 		document.view.qnum.value=i;	
-		document.view.question.value ="Who is the kid sidekick of Professor Layton? \na)Don Paolo \nb)Maya Fey \nc)Luke Triton \nd)Emmy";
+		document.view.question.value ="Who is the kid sidekick of Professor Layton? \na) Don Paolo \nb) Maya Fey \nc) Luke Triton \nd) Emmy";
 		document.view.qans.value=""
 	}
 	else if (i===10){ 
 		document.view.qnum.value=i;	
-		document.view.question.value ="What is the name of the enemy group in Ghost Squad? \na)Shadaloo \nb)Indigo Wolves \nc)Blue Wolves \nd)Providence";
+		document.view.question.value ="What is the name of the enemy group in Ghost Squad? \na) Shadaloo \nb) Indigo Wolves \nc) Blue Wolves \nd) Providence";
 		document.view.qans.value=""
 	}
 	else if (i===11){ 
 		document.view.qnum.value=i;	
-		document.view.question.value ="Who is the doctor in House Of The Dead? \na)Curien \nb)Mr. G \nc)Goldman \nd)Magician";
+		document.view.question.value ="Who is the doctor in House Of The Dead? \na) Curien \nb) Mr. G \nc) Goldman \nd) Magician";
 		document.view.qans.value=""
 	}
 	else if (i===12){ 
 		document.view.qnum.value=i;	
-		document.view.question.value ="Who is the protagonist of Call Of Duty? \na)Alex Mason \nb)Jason Hudson \nc)Friedrich Steiner \nd)Viktor Reznov";
+		document.view.question.value ="Who is the protagonist of Call Of Duty? \na) Alex Mason \nb) Jason Hudson \nc) Friedrich Steiner \nd) Viktor Reznov";
 		document.view.qans.value=""
 	}
 	else if (i===13){ 
 		document.view.qnum.value=i;	
-		document.view.question.value ="In Pokemon, which region does Cynthia hail from? \na)Kanto \nb)Johto \nc)Sinnoh \nd)Alola";
+		document.view.question.value ="In Pokemon, which region does Cynthia hail from? \na) Kanto \nb)Johto \nc) Sinnoh \nd) Alola";
 		document.view.qans.value=""
 	}
 	else if (i===14){ 
 		document.view.qnum.value=i;	
-		document.view.question.value ="In Super Mario, what is the name of Mario's brother? \na)Waluigi \nb)Wario \nc)Yoshi \nd)Luigi";
+		document.view.question.value ="In Super Mario, what is the name of Mario's brother? \na) Waluigi \nb) Wario \nc) Yoshi \nd) Luigi";
 		document.view.qans.value=""
 	}
 	else if (i===15){ 
 		document.view.qnum.value=i;	
-		document.view.question.value ="What is the gender of Samus Aran from Metroid? \na)Male \nb)Female \nc)Hermaphroditic \nd)Other/Non-Binary";
+		document.view.question.value ="What is the gender of Samus Aran from Metroid? \na) Male \nb) Female \nc) Hermaphroditic \nd) Other/Non-Binary";
 		document.view.qans.value=""
 	}
 	else if (i===16){ 
 		document.view.qnum.value=i;	
-		document.view.question.value ="In Super Smash Bros, what is the white floating glove named? \na)Destroyer \nb)Tabuu \nc)Mario's Glove \nd)Master Hand";
+		document.view.question.value ="In Super Smash Bros, what is the white floating glove named? \na) Destroyer \nb) Tabuu \nc) Mario's Glove \nd) Master Hand";
 		document.view.qans.value=""
 	}
 
 	i++; 
-	}
+}
