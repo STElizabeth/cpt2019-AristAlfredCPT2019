@@ -177,6 +177,30 @@ function submitAnswer(){
 		}
 		document.view.qscore.value=score
 	}
+	else if (ans===15){ 
+		y = document.getElementById("qans").value
+		if(yy==="B"){
+			document.getElementById("question").value="You are right"
+			score++
+		}
+		else {
+			document.getElementById("question").value="You are wrong"
+        
+		}
+		document.view.qscore.value=score
+	}
+	else if (ans===16){ 
+		y = document.getElementById("qans").value
+		if(yy==="D"){
+			document.getElementById("question").value="You are right"
+			score++
+		}
+		else {
+			document.getElementById("question").value="You are wrong"
+        
+		}
+		document.view.qscore.value=score
+	}
 
 	ans++; 
 }
@@ -251,6 +275,16 @@ function main(){
 	else if (i===14){ 
 		document.view.qnum.value=i;	
 		document.view.question.value ="In Super Mario, what is the name of Mario's brother? \na)Waluigi \nb)Wario \nc)Yoshi \nd)Luigi";
+		document.view.qans.value=""
+	}
+	else if (i===15){ 
+		document.view.qnum.value=i;	
+		document.view.question.value ="What is the gender of Samus Aran from Metroid? \na)Male \nb)Female \nc)Hermaphroditic \nd)Other/Non-Binary";
+		document.view.qans.value=""
+	}
+	else if (i===16){ 
+		document.view.qnum.value=i;	
+		document.view.question.value ="In Super Smash Bros, what is the white floating glove named? \na)Destroyer \nb)Tabuu \nc)Mario's Glove \nd)Master Hand";
 		document.view.qans.value=""
 	}
 
