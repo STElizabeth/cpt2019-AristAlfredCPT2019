@@ -27,6 +27,10 @@
 	background-image:url('images/fireworks.jpg');
 }
 
+#trivia_game {
+	background-image:url('images/retro_sky.jpg');
+}
+
 /* Set up styles for text-related elements */
 h3, p, li {
 	font-family: arial;
