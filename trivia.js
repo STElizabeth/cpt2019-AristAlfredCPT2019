@@ -129,6 +129,54 @@ function submitAnswer(){
 		}
 		document.view.qscore.value=score
 	}
+	else if (ans===11){ 
+		y = document.getElementById("qans").value
+		if(yy==="A"){
+			document.getElementById("question").value="You are right"
+			score++
+		}
+		else {
+			document.getElementById("question").value="You are wrong"
+        
+		}
+		document.view.qscore.value=score
+	}
+	else if (ans===12){ 
+		y = document.getElementById("qans").value
+		if(yy==="B"){
+			document.getElementById("question").value="You are right"
+			score++
+		}
+		else {
+			document.getElementById("question").value="You are wrong"
+        
+		}
+		document.view.qscore.value=score
+	}
+	else if (ans===13){ 
+		y = document.getElementById("qans").value
+		if(yy==="C"){
+			document.getElementById("question").value="You are right"
+			score++
+		}
+		else {
+			document.getElementById("question").value="You are wrong"
+        
+		}
+		document.view.qscore.value=score
+	}
+	else if (ans===14){ 
+		y = document.getElementById("qans").value
+		if(yy==="D"){
+			document.getElementById("question").value="You are right"
+			score++
+		}
+		else {
+			document.getElementById("question").value="You are wrong"
+        
+		}
+		document.view.qscore.value=score
+	}
 
 	ans++; 
 }
@@ -183,6 +231,26 @@ function main(){
 	else if (i===10){ 
 		document.view.qnum.value=i;	
 		document.view.question.value ="What is the name of the enemy group in Ghost Squad? \na)Shadaloo \nb)Indigo Wolves \nc)Blue Wolves \nd)Providence";
+		document.view.qans.value=""
+	}
+	else if (i===11){ 
+		document.view.qnum.value=i;	
+		document.view.question.value ="Who is the doctor in House Of The Dead? \na)Curien \nb)Mr. G \nc)Goldman \nd)Magician";
+		document.view.qans.value=""
+	}
+	else if (i===12){ 
+		document.view.qnum.value=i;	
+		document.view.question.value ="Who is the protagonist of Call Of Duty? \na)Jason Hudson \nb)Alex Mason \nc)Friedrich Steiner \nd)Viktor Reznov";
+		document.view.qans.value=""
+	}
+	else if (i===13){ 
+		document.view.qnum.value=i;	
+		document.view.question.value ="In Pokemon, which region does Cynthia hail from? \na)Kanto \nb)Johto \nc)Sinnoh \nd)Alola";
+		document.view.qans.value=""
+	}
+	else if (i===14){ 
+		document.view.qnum.value=i;	
+		document.view.question.value ="In Super Mario, what is the name of Mario's brother? \na)Waluigi \nb)Wario \nc)Yoshi \nd)Luigi";
 		document.view.qans.value=""
 	}
 
