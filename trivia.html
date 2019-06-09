@@ -1,24 +1,66 @@
 <!DOCTYPE html>
+
 <html>
+
 	<head>
-		<title>Trivia Quiz</title>
+
+		<title>Games Trivia Quiz</title>
+
 		<link rel="stylesheet" type="text/css" href="cpt.css">
+
 		<script src="trivia.js"></script>
+
 	</head>
 
 	<body LINK="F7DD5E" VLINK="F7DD5E" ALINK="F7DD5E" onLoad="main()" id="trivia_game">
+
+		<!-- establish spacing and an image to be changed whenever an answer is right or wrong, or when there is a new question -->
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        	<img src="images/question_mark.gif" class="score_head" alt="Question mark" name="score_image">&nbsp;
 		<br>
-		<FORM name="view">  
-			Question: &nbsp;<input type="text" name="qnum" size="2" >&nbsp;<input type="button" name="go" value=" Next Question" onClick=main()>
-    		<br>
-    		<br>
-    		Answer:&nbsp;&nbsp;&nbsp; <input type="text" id="qans" size="2">&nbsp;<input type="button" value="Submit Answer" onClick=submitAnswer()>
-			<br>
-    		<br>
-    		Score: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" id= "qscore" name="qscore" size="2">
-			<br>
-			<br>
-			<TEXTAREA COLS=31 ROWS=9 id="question"  wrap="virtual"></TEXTAREA> 
-		</FORM>
+        	<br>
+
+		<!-- establish a div block to contain the two main components of the trivia game -->
+		<div>
+
+			<FORM name="view" class="separator">
+				<span class="trivia_descriptor">Question:</span> &nbsp;<input type="text" id="qnum_id" name="qnum" size="2" disabled>&nbsp;<input type="button" id="go_id" name="go" value=" Next Question" onClick=main() disabled>
+				<br>
+				<br>
+				<span class="trivia_descriptor">Answer:</span> &nbsp;&nbsp;&nbsp;<input type="text" id="qans" size="2">&nbsp;<input type="button" id="user_submit" value="Submit Answer" onClick=submitAnswer()>
+				<br>
+				<br>
+				<span class="trivia_descriptor">Score:</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" id="qscore_id" name="qscore" size="2" disabled>
+				<br>
+				<br>
+				<span id="streak_box" class="trivia_descriptor">Streak: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" id="streakscore_id" name="streakscore" size="2" disabled></span>
+				<br>
+				<br>
+				<TEXTAREA COLS=32 ROWS=9 id="question" wrap="virtual" disabled></TEXTAREA>
+				&nbsp;&nbsp;&nbsp;&nbsp;
+			</FORM>
+
+			<div id="result_window" class="separator">
+				<h3 id="result_header">GAME RESULTS:</h3>
+				<img src="" id="result_image_id" class="result_image" alt="Result image">
+				<br>
+				<p id="result_message"> </p>
+				<input type="button" id="reset_id" value="Play Again" onClick=resetGame() disabled>
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;
+			</div>
+
+		</div>
+
+		<!-- for Google Chrome users, play an introductory mp3 in an iframe to make background music work -->
+		<iframe src="ready_to_rumble.mp3" allow="autoplay"></iframe>
+		
+		<!-- store audio for music -->
+		<audio id="pixel_song" src="pixel_parade.mp3" autoplay loop></audio>
+		<audio id="correct_sound_id" src="correct_ring.mp3"></audio>
+		<audio id="incorrect_sound_id" src="incorrect_ring.mp3"></audio>
+		<audio id="good_score_sound" src="good_score_music.mp3"></audio>
+		<audio id="bad_score_sound" src="bad_score_music.mp3"></audio>
+
 	</body>
 </html>
