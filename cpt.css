@@ -27,8 +27,12 @@
 	background-image:url('images/fireworks.jpg');
 }
 
+#trivia_home {
+	background-image:url('images/game_console_background.jpg');
+}
+
 #trivia_game {
-	background-image:url('images/retro_sky.jpg');
+	background-image:url('images/game_gadget_backdrop.jpg');
 }
 
 /* Set up styles for text-related elements */
@@ -44,10 +48,87 @@ p, li {
 	color: darkred;
 }
 
+/* Set up styles for trivia quiz home page elements */
+table {
+	font-family: trebuchet ms;
+	border-collapse: collapse;
+	width: 302px;
+}
+
+td, th {
+	border: 3px solid deeppink;
+	text-align: center;
+	padding: 2px;
+}
+
+tr:nth-child(odd) {
+	color: firebrick;
+}
+
+tr:nth-child(even) {
+	color: purple;
+}
+
 /* Set up styles for trivia quiz elements */
 form, input, TEXTAREA {
-	font-family: comic sans ms;
-	color: darkred;
+	font-family: verdana;
+	color: green;
+}
+
+TEXTAREA {
+	overflow: hidden;
+	resize: none;
+}
+
+#go_id, #user_submit {
+	background-color: lightcyan;
+}
+
+#go_id {
+	opacity: 0.5;
+}
+
+#qnum_id, #qscore_id, #question, #streakscore_id {
+	color: firebrick;
+	background-color: moccasin;
+}
+
+.trivia_descriptor, #streakbox {
+	border-radius: 5px;
+	border: 5px dotted chocolate;
+	padding: 2px;
+	background-color: yellow;
+	color: darkslateblue;
+}
+
+#streak_box {
+	border: 3px solid darkorange;
+	background-color: lightyellow;
+	color: orangered;
+}
+
+.separator {
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#result_window {
+	border-radius: 5px;
+	border-left: 5px solid orange;
+	padding: 5px;
+	background-color: lightgoldenrodyellow;
+	text-align: center;
+	opacity: 0;
+}
+
+#result_header, #result_message {
+	color: navy;
+}
+
+#reset_id {
+	background-color: mistyrose;
+	color: crimson;
 }
 
 /* Set up styles for images */
@@ -56,21 +137,42 @@ form, input, TEXTAREA {
 	height: 65px;
 }
 
+.quiz_title {
+	width: 300px;
+	height: 60px;
+}
+
+.controller_image {
+	width: 300px;
+	height: 150px;
+}
+
+.score_head {
+	width: 65px;
+	height: 70px;
+}
+
+.result_image {
+	margin-left: 2px;
+	margin-right: 2px;
+	width: 200px;
+	height: 140px;
+}
+    
 /* Set up styles for links */
-a:link {
-	color: midnightblue;
+a:link, a:visited {
+	background-color: mediumblue;
+	color: white;
+	padding: 5px 15px;
+	text-align: center;
+	font-family: comic sans ms;
+	font-weight: bold;
+	text-decoration: none;
+	display: inline-block;
 }
 
-a:visited {
-	color: saddlebrown;
-}
-
-a:hover, a:focus {
-	color: rebeccapurple;
-}
-
-a:active {
-	color: red;
+a:hover, a:focus, a:active {
+	background-color: midnightblue;
 }
 
 /* Set up style for iframes, which are used for audio */
