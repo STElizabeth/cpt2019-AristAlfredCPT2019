@@ -266,10 +266,6 @@ function resetLoad(){
 
 // define the main function, where the questions and their possible answers are inputted in "else" statements
 function main(){
-	// for the first question, load the score and streak values in their appropriate fields
-	document.view.qscore.value=score
-	document.view.streakscore.value=current_streak
-	
 	// set the score image to the question mark
 	document.score_image.src="images/question_mark.gif"
 
@@ -430,8 +426,8 @@ function resetGame(){
 	document.view.go.value="Next Question"
 
 	// set up the first question of the quiz
-	// document.view.qscore.value=score
-	// document.view.streakscore.value=current_streak
+	document.view.qscore.value=score
+	document.view.streakscore.value=current_streak
 	main()
 
 	// restart the background music
