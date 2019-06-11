@@ -371,6 +371,13 @@ function main(){
 		// calculate the percent of the quiz that is correct, rounded to 1 decimal place
 		score_percent = score / 16 * 100
 		score_percent = score_percent.toFixed(1)
+		
+		// for mobile users' sake, collapse the image and textarea
+		document.score_image.style.width = "1px"
+		document.score_image.style.height = "1px"
+		document.score_image.style.opacity = "0"
+		document.view.qdisplay.cols = "1"
+		document.view.qdisplay.style.opacity = "0"
 
 		// make the result div visible and make the "Play Again" button semi-visible
 		document.getElementById("result_window").style.opacity = "1"
@@ -424,6 +431,13 @@ function resetGame(){
 	// re-enable certain visible components of the quiz and rename the "Next Question" button
 	document.getElementById("qans").disabled = false
 	document.view.go.value="Next Question"
+	
+	// restore image and textarea to their original appearance
+	document.score_image.style.width = "65px"
+	document.score_image.style.height = "70px"
+	document.score_image.style.opacity = "1"
+	document.view.qdisplay.cols = "32"
+	document.view.qdisplay.style.opacity = "1"
 
 	// set up the first question of the quiz
 	document.view.qscore.value=score
