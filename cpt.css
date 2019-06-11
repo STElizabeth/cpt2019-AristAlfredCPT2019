@@ -141,6 +141,11 @@ TEXTAREA {
 	height: 65px;
 }
 
+.failure_image {
+	width: 75px;
+	height: 75px;
+}
+
 .quiz_title {
 	width: 300px;
 	height: 60px;
