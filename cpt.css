@@ -111,10 +111,17 @@ TEXTAREA {
 	color: orangered;
 }
 
-.separator {
-	width: 300px;
+.separator, .thin_separator {
 	display: inline-block;
 	vertical-align: top;
+}
+
+.separator {
+	width: 300px;
+}
+
+.thin_separator {
+	width: 250px;
 }
 
 #result_window {
