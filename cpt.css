@@ -27,6 +27,10 @@
 	background-image:url('images/fireworks.jpg');
 }
 
+#final_failure {
+	background-image:url('images/green_sad_emoji.jpg');
+}
+
 #trivia_home {
 	background-image:url('images/game_console_background.jpg');
 }
