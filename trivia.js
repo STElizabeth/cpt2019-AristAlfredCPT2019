@@ -372,12 +372,27 @@ function main(){
 		score_percent = score / 16 * 100
 		score_percent = score_percent.toFixed(1)
 		
-		// for mobile users' sake, collapse the image and textarea
+		// for mobile users' viewing, collapse the image and textarea
 		document.score_image.style.width = "1px"
 		document.score_image.style.height = "1px"
 		document.score_image.style.opacity = "0"
 		document.view.qdisplay.cols = "1"
+		document.view.qdisplay.rows = "1"
 		document.view.qdisplay.style.opacity = "0"
+
+		// for mobile users' viewing, set the form's font size to 1%
+		document.view.style.fontSize = "1%"
+
+		// for mobile users' viewing, set the font size of inputs to 1px
+		// document.getElementById("go_id").style.fontSize = "1px"
+		// document.getElementById("user_submit").style.fontSize = "1px"
+		// document.getElementById("qnum_id").style.fontSize = "1px"
+		// document.getElementById("qans").style.fontSize = "1px"
+		// document.getElementById("qscore_id").style.fontSize = "1px"
+		// document.getElementById("streakscore_id").style.fontSize = "1px"
+
+		// for aesthetic reasons, make the form "disappear"
+		document.view.style.opacity = "0"
 
 		// make the result div visible and make the "Play Again" button semi-visible
 		document.getElementById("result_window").style.opacity = "1"
@@ -437,7 +452,22 @@ function resetGame(){
 	document.score_image.style.height = "70px"
 	document.score_image.style.opacity = "1"
 	document.view.qdisplay.cols = "32"
+	document.view.qdisplay.rows = "9"
 	document.view.qdisplay.style.opacity = "1"
+
+	// set the form's font size back to normal
+	document.view.style.fontSize = "100%"
+
+	// set the font size of inputs back to normal
+	// document.getElementById("go_id").style.fontSize = "100%"
+	// document.getElementById("user_submit").style.fontSize = "100%"
+	// document.getElementById("qnum_id").style.fontSize = "100%"
+	// document.getElementById("qans").style.fontSize = "100%"
+	// document.getElementById("qscore_id").style.fontSize = "100%"
+	// document.getElementById("streakscore_id").style.fontSize = "100%"
+
+	// make the form opaque again
+	document.view.style.opacity = "1"
 
 	// set up the first question of the quiz
 	document.view.qscore.value=score
