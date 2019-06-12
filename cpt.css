@@ -112,7 +112,7 @@ TEXTAREA {
 }
 
 .separator, .thin_separator {
-	display: inline-block;
+	/* display: inline-block; */
 	vertical-align: top;
 }
 
