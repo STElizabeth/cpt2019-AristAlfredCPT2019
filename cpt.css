@@ -112,7 +112,7 @@ TEXTAREA {
 }
 
 .separator, .thin_separator {
-	/* display: inline-block; */
+	display: inline-block;
 	vertical-align: top;
 }
 
@@ -130,7 +130,7 @@ TEXTAREA {
 	padding: 5px;
 	background-color: lightgoldenrodyellow;
 	text-align: center;
-	opacity: 0;
+	/* opacity: 0; */
 }
 
 #result_header, #result_message {
