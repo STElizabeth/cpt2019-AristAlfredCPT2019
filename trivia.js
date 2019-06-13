@@ -368,7 +368,7 @@ function main(){
 		document.getElementById("user_submit").disabled = true
 		document.getElementById("user_submit").style.opacity = "0.5"
 
-		// calculate the percent of the quiz that is correct, rounded to 1 decimal place
+		// calculate the percent of the quiz that is correct (by dividing score by number of questions * 100), rounded to 1 decimal place
 		score_percent = score / 16 * 100
 		score_percent = score_percent.toFixed(1)
 		
@@ -392,7 +392,10 @@ function main(){
 		//document.getElementById("streakscore_id").style.fontSize = "1%"
 
 		// for aesthetic reasons, make the form "disappear"
-		document.view.style.opacity = "0"
+		// document.view.style.opacity = "0"
+
+		// alter the direction property of display_div to switch the positions of the contained div blocks
+		document.getElementById("display_div").style.direction = "rtl"
 
 		// make the result div visible and make the "Play Again" button semi-visible
 		document.getElementById("result_window").style.opacity = "1"
