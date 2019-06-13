@@ -130,7 +130,7 @@ TEXTAREA {
 	padding: 5px;
 	background-color: lightgoldenrodyellow;
 	text-align: center;
-	/* opacity: 0; */
+	opacity: 0;
 }
 
 #result_header, #result_message {
