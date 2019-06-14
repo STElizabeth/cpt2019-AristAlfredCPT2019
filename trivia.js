@@ -372,7 +372,7 @@ function main(){
 		score_percent = score / 16 * 100
 		score_percent = score_percent.toFixed(1)
 		
-		// for mobile users' viewing, collapse the image and textarea
+		// for mobile users' viewing, collapse the image and textarea; the inline-block design would not be shown on a phone
 		document.score_image.style.width = "1px"
 		document.score_image.style.height = "1px"
 		document.score_image.style.opacity = "0"
@@ -392,7 +392,8 @@ function main(){
 		//document.getElementById("streakscore_id").style.fontSize = "1%"
 
 		// for aesthetic reasons, make the form "disappear"
-		document.view.style.opacity = "0"
+		//document.view.style.opacity = "0"
+		document.view.style.height = "0px"
 
 		// make the result div visible and make the "Play Again" button semi-visible
 		document.getElementById("result_window").style.opacity = "1"
