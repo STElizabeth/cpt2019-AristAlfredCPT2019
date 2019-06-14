@@ -392,8 +392,7 @@ function main(){
 		//document.getElementById("streakscore_id").style.fontSize = "1%"
 
 		// for aesthetic reasons, make the form "disappear"
-		//document.view.style.opacity = "0"
-		document.view.style.height = "0px"
+		document.view.style.opacity = "0"
 
 		// make the result div visible and make the "Play Again" button semi-visible
 		document.getElementById("result_window").style.opacity = "1"
