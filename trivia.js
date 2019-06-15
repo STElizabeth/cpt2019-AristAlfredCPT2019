@@ -383,14 +383,6 @@ function main(){
 		// for mobile users' viewing, set the form's font size to 1%
 		document.view.style.fontSize = "1%"
 
-		// for mobile users' viewing, set the font size of inputs to 1px
-		//document.getElementById("go_id").style.fontSize = "1%"
-		//document.getElementById("user_submit").style.fontSize = "1%"
-		//document.getElementById("qnum_id").style.fontSize = "1%"
-		//document.getElementById("qans").style.fontSize = "1%"
-		//document.getElementById("qscore_id").style.fontSize = "1%"
-		//document.getElementById("streakscore_id").style.fontSize = "1%"
-
 		// for aesthetic reasons, make the form "disappear"
 		document.view.style.opacity = "0"
 
@@ -457,14 +449,6 @@ function resetGame(){
 
 	// set the form's font size back to normal
 	document.view.style.fontSize = "100%"
-
-	// set the font size of inputs back to normal
-	// document.getElementById("go_id").style.fontSize = "100%"
-	// document.getElementById("user_submit").style.fontSize = "100%"
-	//document.getElementById("qnum_id").style.fontSize = "100%"
-	//document.getElementById("qans").style.fontSize = "100%"
-	//document.getElementById("qscore_id").style.fontSize = "100%"
-	//document.getElementById("streakscore_id").style.fontSize = "100%"
 
 	// make the form opaque again
 	document.view.style.opacity = "1"
