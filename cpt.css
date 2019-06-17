@@ -137,6 +137,10 @@ TEXTAREA {
 	color: navy;
 }
 
+#result_header {
+	font-family: courier;
+}
+
 #reset_id {
 	background-color: mistyrose;
 	color: crimson;
