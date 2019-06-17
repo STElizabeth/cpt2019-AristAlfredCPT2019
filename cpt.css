@@ -1,4 +1,4 @@
-/* Set up styles for image backgrounds based on category or subject covered in the course, alongside the final.html background */
+/* Set up styles for image backgrounds based on category or subject covered in the course, alongside the final.html background and trivia backgrounds */
 #python {
 	background-image:url('images/python_image.jpg');
 }
@@ -171,8 +171,8 @@ TEXTAREA {
 .result_image {
 	margin-left: 2px;
 	margin-right: 2px;
-	width: 200px;
-	height: 140px;
+	width: 160px;
+	height: 100px;
 }
     
 /* Set up styles for links */
